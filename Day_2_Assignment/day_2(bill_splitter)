@@ -1,0 +1,10 @@
+bill = float(input("Enter the total bill amount: "))
+people = int(input("Enter the total number of people: "))
+
+share_per_person = bill / people
+
+print(f" Total bill: {bill}. Each person pays: {share_per_person}")
+
+print(type(bill))
+print(type(people))
+print(type(share_per_person))
